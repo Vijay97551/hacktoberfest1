@@ -4,13 +4,16 @@ using namespace std;
 int main()
 {
     int n,i,k;
+    int p,q=0;
+   cin>>p;
     cin>>n>>k;
     int a[n];
     for (i=0; i<n; i++)
     {
         cin>>a[i];
     }
-
+ for(i=0;i<p;i++)
+        q++;
     int sum1,sum2,position,sum3;
     for(i=0;i<k;i++){
         sum1+=a[i];
